@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway LandingPage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- BootStrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <img class="logo" src="assets/logo.svg" alt="Logo Subway">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Cardápio
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Cardápio</a></li>
+                        <li><a class="dropdown-item" href="#">Nossos Pães</a></li>
+                        <li><a class="dropdown-item" href="#">Como montar meu Subway</a></li>
+                        <li><a class="dropdown-item" href="#">Informações Nutricionais</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Avalie o Saubway</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Seja um Franqueado</a>
+                </li>
+            </ul>
+                    <button id="botao1" type="button" class="btn btn-warning botao-negrito btn-lg">Peça Já!</button>
+        </div>
+    </div>
+</nav>
+
+    <!--Carousel--> 
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/Banner1.jpg " class="d-block w-100" alt="Promo1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Banner2.jpg" class="d-block w-100" alt="Promo2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Banner3.jpg" class="d-block w-100" alt="Promo2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+
+    <!--Main-->
+        <section id="services" class="services section-padding main-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                    <h2 class="mb-4 negrito">Encontre uma loja</h2>
+                    <p class="mb-4">Tenha uma experiência incrível! Digite seu endereço para encontrar lojas e promoções na sua região.</p>
+                    <button type="button" class="btn btn-success btn-lg mb-4 negrito">Encontre um SUBWAY®</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  
+<!--Seção Promo-->
+        <section id="nova-secao" class="section-padding main-section">
+            <div class="container">
+                <div class="row">
+                  <!-- Promoção 1 -->
+                    <div class="col-md-6">
+                       <div class="img-container">
+                          <img src="assets/promo1.jpg" alt="Promo 1">
+                </div>
+                  <h2 class="negrito" >Promoções e Lançamentos</h2>
+                <p>Na SUBWAY® sempre tem uma novidade para você. Conheça nossas promoções e lançamentos.</p>
+                <button id="botao1" type="button" class="btn btn-success botao-negrito">Saiba Mais</button>
+            </div>
+            
+<!-- Promoção 2 -->
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="assets/promo2.jpg" alt="Promo 2">
+                    </div>
+                     <h2 class="negrito" >Promoções e Lançamentos</h2>
+                     <p>Na SUBWAY® sempre tem uma novidade para você. Conheça nossas promoções e lançamentos.</p>
+                <button id="botao2" type="button" class="btn btn-success botao-negrito">Saiba Mais</button>
+                 </div>
+            </div>
+             </div>
+        </section>
+
+<!-- Footer -->
+<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+    <div class="col mb-3">
+      <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <img src="assets/logo.svg" alt="LogoSubway" class="footer-logo">
+      <p class="text-muted">© 2023</p>
+    </div>
+
+    <div class="col mb-3">
+
+    </div>
+
+    <div class="col mb-3">
+      <h5>Sobre Nós</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fale Conosco</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">App Subway</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Avalie o Subway</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Subway Partners</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trabalhe conosco</a></li>
+      </ul>
+    </div>
+
+
+
+<!-- Redes Sociais -->
+            <div class="col mb-3">
+               <h5>Redes Sociais</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">
+                    <i class="bi bi-facebook"></i> Facebook
+                    </a>
+        </li>
+        <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-muted">
+                <i class="bi bi-twitter"></i> Twitter
+            </a>
+        </li>
+        <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-muted">
+                <i class="bi bi-instagram"></i> Instagram
+            </a>
+        </li>
+        <!-- Adicione mais ícones e links conforme necessário -->
+    </ul>
+</div>
+</footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" defer></script>
+  
+
+  
+  <script>
+      document.getElementById('botao1').addEventListener('click', function() {
+          this.classList.toggle('btn-warning');
+      });
+
+      document.getElementById('botao2').addEventListener('click', function() {
+          this.classList.toggle('btn-primary');
+      });
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+

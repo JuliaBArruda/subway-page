@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo Direita Inicial */
+.logo {
+    width: 200px;
+}
+
+/* Navbar Principal */
+.navbar-nav a {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-right: 50px; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #1EAE34;
+}
+
+.botao-negrito {
+    font-weight: bold;
+}
+
+/* Carousel Itens */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Section */
+.main-section {
+    background-color: #f2f2f2;
+    padding: 40px; 
+}
+
+/* Todos H2 em negrito */
+.negrito {
+    font-weight: bold;
+}
+
+/* Promo */
+.promo-button {
+    background-color: #e3b725eb;
+    color: #1e5c32dc;
+}
+
+.promo-button:hover {
+    background-color: #1e5c32dc;
+    color: #f6f6f6e9;
+    opacity: 0.8;
+}
+
+/* Button Warning */
+.btn.btn-warning {
+    background-color: #387443;
+    color: #edeceb;
+}
+
+/* Footer */
+.footer-logo {
+    width: 350px;
+}
